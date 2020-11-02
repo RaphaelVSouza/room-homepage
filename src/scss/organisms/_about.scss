@@ -1,0 +1,39 @@
+.about {
+  
+  @media #{$media-desktop} {
+    display: flex;
+    flex-direction: row;
+    max-width: 1349px
+  }
+  &__text {
+    padding: 54px 38px;
+    @media #{media-desktop} {
+      max-width: 460px
+    }
+  }
+  &__image-container {
+    display: flex;
+    align-items: center;
+    max-width: 375px;
+    @media #{media-desktop} {
+    }
+  }
+
+  &__image {
+    max-width: 375px;
+    @media #{media-desktop} {
+    }
+  }
+
+  &__title {
+    @extend %text-title;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-weight: 700;
+  }
+
+  &__content {
+    @extend %text-content;
+  }
+}

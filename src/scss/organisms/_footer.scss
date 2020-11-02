@@ -1,0 +1,10 @@
+.footer {
+  margin-top: 3rem;
+  border-top: 1px solid black;
+  @extend %text-padding;
+  @extend %center-content;
+
+  &__attribution {
+    font-size: 1.3rem;
+  }
+}

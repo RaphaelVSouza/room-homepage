@@ -1,0 +1,99 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  @media #{$media-desktop} {
+    flex-direction: row;
+  }
+
+  &__image-container {
+    position: relative;
+    display: flex;
+    max-width: 375px;
+    @media #{$media-desktop} {
+      width: 100%;
+      max-width: 750px;
+      max-height: 476px;
+     
+    }
+  }
+
+  &__image {
+    width: 100%;
+    max-width: 375px;
+
+    @media #{$media-desktop} {
+      max-width: inherit;
+      max-height: 534px;
+    }
+  }
+
+  &__image--desktop {
+    @media #{$media-desktop} {
+      max-width: inherit;
+    }
+  }
+
+  &__arrow-container {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    @media #{$media-desktop} {
+      bottom: -1px;
+      right: -147px;
+     
+    }
+  }
+
+  &__arrow-left {
+    margin: 0 -1px;
+  }
+
+  &__arrow-left,
+  &__arrow-right {
+    display: grid;
+    place-self: center;
+    cursor: pointer;
+
+    padding: 1rem 1.2rem;
+    background: $black;
+    @media #{$media-desktop} {
+      padding: 25px 30px
+    }
+  }
+
+  &__text {
+    
+   display:flex;
+   flex-direction:column;
+  justify-content: center;
+
+    @media #{$media-desktop} {
+     
+      min-width: 300px;
+      max-width: 540px;
+      padding: 60px 80px 100px 80px;
+      margin: 0;
+    }
+  }
+
+  &__title {
+    @extend %text-title;
+  }
+
+  &__content {
+    @extend %text-content;
+  }
+
+  &__shop-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  &__shop {
+    @extend %shop-link;
+  }
+
+  &__shop-arrow {
+    margin-left: 1.5rem;
+  }
+}
