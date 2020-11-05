@@ -23,6 +23,7 @@
 
     @media #{$media-desktop} {
       max-width: inherit;
+      height: auto;
       max-height: 534px;
     }
   }
