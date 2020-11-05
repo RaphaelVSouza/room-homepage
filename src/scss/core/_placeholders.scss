@@ -8,23 +8,22 @@
   font-size: 12px;
   font-weight: 700;
   text-transform: lowercase;
-  margin-right: 1.2rem;
+  margin-left: 25px;
 
   @media #{$media-desktop} {
     color: $white;
     font-weight: 600;
-    margin-left: 1rem;
+    margin-left: 25px;
 
     &::before {
       content: '';
       position: absolute;
-      z-index:4;
+      z-index: 4;
       width: 18px;
       height: 2px;
       bottom: -5px;
       margin-left: 6px;
-     
-     
+
       background-color: $white;
       visibility: hidden;
       -webkit-transform: scaleX(0);
@@ -49,18 +48,11 @@
   padding: 58px 43px;
 }
 
-%text-title {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  @media #{$media-desktop} {
-    font-size: 34px;
-  }
-}
 %text-content {
-  font-size: 0.8rem;
-  color: $dark-gray;
+  font-size: 12px;
+  font-weight: 500;
   line-height: 18px;
+  color: $dark-gray;
 
   @media #{$media-desktop} {
     font-size: 12px;
@@ -73,7 +65,8 @@
 
 %shop-link {
   text-transform: uppercase;
-  letter-spacing: 6px;
+  letter-spacing: 8px;
+  font-size: 14px;
   font-weight: 600;
   @media #{$media-desktop} {
     font-size: 14px;

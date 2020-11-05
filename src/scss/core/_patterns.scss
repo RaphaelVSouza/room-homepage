@@ -18,12 +18,12 @@ body {
 
 .mobile-only {
   @media #{$media-desktop} {
-    display: none !important;
+    display: none;
   }
 }
 
 .desktop-only {
   @media #{$media-mobile} {
-    display: none !important;
+    display: none;
   }
 }

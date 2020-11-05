@@ -1,14 +1,13 @@
 .about {
-  
   @media #{$media-desktop} {
     display: flex;
     flex-direction: row;
-    max-width: 1349px
+    max-width: 1349px;
   }
   &__text {
-    padding: 54px 38px;
+    padding: 50px 30px;
     @media #{media-desktop} {
-      max-width: 460px
+      max-width: 460px;
     }
   }
   &__image-container {
@@ -26,11 +25,11 @@
   }
 
   &__title {
-    @extend %text-title;
-    font-size: 1.2rem;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
     font-weight: 700;
+    margin-bottom: 15px;
   }
 
   &__content {
