@@ -1,29 +1,11 @@
-html,
-body,
-p,
-h1,
-h2,
-span {
-  font-family: $font;
-}
-
-html,
-body {
-  display: grid;
-  place-self: center;
-  @media #{$media-desktop} {
-    justify-self: start;
-  }
-}
-
 .mobile-only {
-  @media #{$media-desktop} {
-    display: none;
-  }
+    @media #{$media-desktop} {
+        display: none!important;
+    }
 }
 
 .desktop-only {
-  @media #{$media-mobile} {
-    display: none;
-  }
+    @media #{$media-mobile} {
+        display: none!important;
+    }
 }

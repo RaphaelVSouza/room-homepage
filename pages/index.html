@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"
+    referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css"
+    integrity="sha512-wYsVD8ho6rJOAo1Xf92gguhOGQ+aWgxuyKydjyEax4bnuEmHUt6VGwgpUqN8VlB4w50d0nt+ZL+3pgaFMAmdNQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../dist/css/pages/home.css">
+
+  <title>Frontend Mentor | Room homepage</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="dark-layer"></div>
+  <div class="container">
+    <header class="page-room-header">
+      <nav class="top-bar-menu">
+        <div class="dt-menu desktop-only">
+          <a class="dt-menu__link" href="#">Home</a>
+          <a class="dt-menu__link" href="#">Shop</a>
+          <a class="dt-menu__link" href="#">About</a>
+          <a class="dt-menu__link" href="#">Contact</a>
+        </div>
+
+        <ul class="burger-menu mobile-only">
+          <li class="burger-menu__bar1"></li>
+          <li class="burger-menu__bar2"></li>
+          <li class="burger-menu__bar3"></li>
+        </ul>
+
+        <div class="mb-menu mobile-only">
+
+          <li class="mb-menu__item">
+            <a href="#" class="item-link">home</a>
+          </li>
+          <li class="mb-menu__item">
+            <a href="#" class="item-link">shop</a>
+          </li>
+          <li class="mb-menu__item">
+            <a href="#" class="item-link">about</a>
+          </li>
+          <li class="mb-menu__item">
+            <a href="#" class="item-link">contact</a>
+          </li>
+        </div>
+
+        <img class="top-bar-menu__logo" src="../dist/img/logo.svg" alt="room">
+
+      </nav>
+    </header>
+
+    <main>
+      <section class="top-slider glide">
+        <div class="glide__track" data-glide-el="track">
+          <div class="glide__slides">
+            <article class="slider-item glide__slide">
+
+              <div class="slider-item__hero-box">
+                <picture>
+                  <source srcset="../dist/img/desktop-image-hero-1.jpg" media="(min-width: 1100px)">
+                  <img class="image" src="../dist/img/mobile-image-hero-1.jpg" alt="">
+                </picture>
+                <div class="arrow-box" data-glide-el="controls">
+                  <span class="arrow arrow--left" data-glide-dir="<">
+                    <img src="../dist/img/icon-angle-left.svg" alt="">
+                  </span>
+                  <span class="arrow arrow--right" data-glide-dir=">">
+                    <img src="../dist/img/icon-angle-right.svg" alt="">
+                  </span>
+                </div>
+              </div>
+              <div class="text-box ">
+                <h1 class="text-box__title">Discover innovative ways to decorate</h1>
+
+                <p class="text-box__description">We provide unmatched quality, comfort, and style for property owners
+                  across the
+                  country.
+                  Our experts combine form and function in bringing your vision to life. Create a room in your
+                  own style with our collection and make your property a reflection of you and what you love.</p>
+                <a href="#" class="shop-now">
+                  <span class="shop-now__text">Shop now</span>
+                  <img class="show-now__arrow" src="../dist/img/icon-arrow.svg" alt="">
+                </a>
+              </div>
+            </article>
+
+            <article class="slider-item glide__slide">
+              <div class="slider-item__hero-box">
+                <picture>
+                  <source srcset="../dist/img/desktop-image-hero-2.jpg" media="(min-width: 1100px)">
+                  <img class="image" src="../dist/img/mobile-image-hero-2.jpg" alt="">
+                </picture>
+                <div class="arrow-box" data-glide-el="controls">
+                  <span class="arrow arrow--left" data-glide-dir="<">
+                    <img src="../dist/img/icon-angle-left.svg" alt="">
+                  </span>
+                  <span class="arrow arrow--right" data-glide-dir=">">
+                    <img src="../dist/img/icon-angle-right.svg" alt="">
+                  </span>
+                </div>
+              </div>
+              <div class="text-box ">
+                <h1 class="text-box__title">We are available all across the globe</h1>
+                <p class="text-box__description">With stores all over the world, it's easy for you to find furniture for
+                  your
+                  home
+                  or place of business.
+                  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+                  store locator. Any questions? Don't hesitate to contact us today.</p>
+                <a href="#" class="shop-now">
+                  <span class="shop-now__text">Shop now</span>
+                  <img class="show-now__arrow" src="../dist/img/icon-arrow.svg" alt="">
+                </a>
+              </div>
+            </article>
+
+            <article class="slider-item glide__slide">
+              <div class="slider-item__hero-box">
+                <picture>
+                  <source srcset="../dist/img/desktop-image-hero-3.jpg" media="(min-width: 1100px)">
+                  <img class="image" src="../dist/img/mobile-image-hero-3.jpg" alt="">
+                </picture>
+                <div class="arrow-box" data-glide-el="controls">
+                  <span class="arrow arrow--left" data-glide-dir="<">
+                    <img src="../dist/img/icon-angle-left.svg" alt="">
+                  </span>
+                  <span class="arrow arrow--right" data-glide-dir=">">
+                    <img src="../dist/img/icon-angle-right.svg" alt="">
+                  </span>
+                </div>
+              </div>
+              <div class="text-box ">
+                <h1 class="text-box__title">Manufactured with the best materials</h1>
+
+                <p class="text-box__description">Our modern furniture store provide a high level of quality. Our company
+                  has
+                  invested in advanced technology
+                  to ensure that every product is made as perfect and as consistent as possible. With three decades of
+                  experience in this industry, we understand what customers want for their home and office.</p>
+
+                <a href="#" class="shop-now">
+                  <span class="shop-now__text">Shop now</span>
+                  <img class="show-now__arrow" src="../dist/img/icon-arrow.svg" alt="">
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+
+        <div class="about__image-box">
+          <img class="image" src="../dist/img/image-about-dark.jpg" alt="">
+
+        </div>
+        <div class="text-box">
+          <h1 class="text-box__title">About our furniture</h1>
+
+          <p class="text-box__description"> Our multifunctional collection blends design and function to suit your
+            individual taste.
+            Make each room unique, or pick a cohesive theme that best express your interests and what
+            inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+            or anything in between. Product specialists are available to help you create your dream space.</p>
+        </div>
+
+        <div class="about__image-box">
+          <img class="image" src="../dist/img/image-about-light.jpg" alt="">
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/RaphaelVSouza">Raphael Vieira</a>.
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <script src="../dist/js/main.js"></script>
+</body>
+
+</html>
